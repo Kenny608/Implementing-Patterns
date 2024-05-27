@@ -1,4 +1,4 @@
-package factoryPack;
+package stratPack.Interview;
 
 public class TeamInterview {
 

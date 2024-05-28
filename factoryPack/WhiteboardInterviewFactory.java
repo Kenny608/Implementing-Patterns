@@ -1,5 +1,7 @@
 package factoryPack;
 
-public class WhiteboardInterviewFactory {
-
+public class WhiteboardInterviewFactory implements InterviewFactory {
+    public Interview createInterview() {
+        return new WhiteboardInterview();
+    }
 }

@@ -1,5 +1,7 @@
 package factoryPack;
 
-public class TeamInterviewFactory {
-
+public class TeamInterviewFactory implements InterviewFactory {
+    public Interview createInterview() {
+        return new TeamInterview();
+    }
 }

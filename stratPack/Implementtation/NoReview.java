@@ -1,5 +1,10 @@
 package stratPack.Implementtation;
 
-public class NoReview {
+import stratPack.Behavior.TeamingBehavior;
+
+public class NoReview implements TeamingBehavior {
+    public void coordinateTeam() {
+        System.out.println("No review needed");
+    }
 
 }

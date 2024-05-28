@@ -1,5 +1,9 @@
 package stratPack.Implementtation;
 
-public class ShareJobInfo {
+import stratPack.Behavior.InterviewingBehavior;
 
+public class ShareJobInfo implements InterviewingBehavior {
+    public void interview() {
+        System.out.println("Respond to interviewer's questions about profession");
+    }
 }
